@@ -30,6 +30,9 @@ jobs:
           --windowed
           --name "DFSTweaks"
           --collect-all customtkinter
+          --collect-all tkinter
+          --hidden-import tkinter
+          --hidden-import _tkinter
           main.py
 
       - name: Upload artifact
